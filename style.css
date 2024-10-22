@@ -1,0 +1,53 @@
+/* google-font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    font-family: poppins;
+}
+.pink {
+    color:#FF136F;
+}
+.header {
+    width: 90%;
+    margin: 0 auto;
+}
+.content {
+    display: flex;
+    align-items: center;
+    background-color: #FEEAE9;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.item-1 {
+    width: 50%;
+}
+.header .item-1 img {
+    width: 50%;
+    padding-left: 30%;
+}
+.header .item-1 h1,p {
+    margin: 0;
+}
+.header .item-1 h1 {
+    font-size: 56px;
+}
+.header .item-1 p {
+    font-size: 16px;
+}
+.header .item-1 span {
+    display: block;
+    font-size: 41px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.info a {
+    background-color:#FF136F;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 70px;
+}
