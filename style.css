@@ -153,27 +153,34 @@ font-weight: 600;
 .footers {
     text-align: center;
     background: #FFF2F1;
-    margin: 5% 15%;
-    padding: 40px 0;
+    margin: 3% 10%;
+    padding: 10% 0;
+    border-radius: 10px;
 }
 input[type="email"] {
     padding: 10px 50px;
     border-radius: 5px;
+    border: 0;
 }
 input[type="submit"] {
     background: linear-gradient(180deg, #FF589B 0%, #FF136F 100%);
     padding: 10px 15px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    border: 0;
 }
 .footers {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 5px;
 }
 .footers h1 {
     margin: 0;
+    font-weight: 600;
+    font-size: 18px;
 }
 .footers p {
     font-size: 10px;
+    font-weight:600;
+    color: #707070;
 }
